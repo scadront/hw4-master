@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Weather</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+      <style>
+        body { font-family: 'Lora', serif; }
+        blockquote { font-style: italic; border-left: solid 3px #CCC; padding-left: 12px; margin-top: 6px; }
+        ul:last-child { padding-bottom: 12px; }
+      </style>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+
+     </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Home</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="weather.html">Weather</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="localnews.html">Local News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="internationalnews.html">International News</a>
+          </li>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Silkwater News</h1>
+          <p>Your one-stop-shop for all the best news and information.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Your Weather</h2>
+              <div id="weather" class="card">
+                <img class="card-img-top bg-primary img-fluid" src="http://openweathermap.org/img/w/01d.png">
+                <div class="card-body">
+                  <h4 class="card-title">Paris</h4>
+                  <p class="card-text">It is 81 degrees outside.</p>
+                  <a id="get_forecast" href="#" class="btn btn-primary">Get Current Temperature</a>
+                </div>
+              </div>
+          </div>
+
+
+
+        <!-- <div class="row"> -->
+          <div class="col-sm-4">
+            <h2>Local News</h2>
+            <p> NYTimes API key: cfa94a3647ab43c1856f465c1de88659
+          </div>
+        <!-- </div> -->
+
+        <!-- <div class="row"> -->
+          <div class="col-sm-4">
+            <h2>International News</h2>
+            <p>I don't really know what to say here but it sounded good.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+     </div>
+
+    <script type="text/javascript" src="news.js"> </script>
+
+  </body>
+</html>

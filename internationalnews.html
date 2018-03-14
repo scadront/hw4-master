@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Silkwater News</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+   <style media="screen">
+    body {
+      line-height: 1.7em;
+    }
+    pre code {
+      color: #bd4147;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="weather.html">Weather</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="localnews.html">Local News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="internationalnews.html">International News</a>
+        </li>
+    </div>
+  </nav>
+      <div class="container mt-3">
+      <h1>International News</h1>
+      <hr>
+
+      <div class="row justify-content-between">
+        <div class="col-sm-3">
+          <div id="weather" class="card">
+            <img class="card-img-top  bg-primary" src="http://openweathermap.org/img/w/01d.png">
+            <div class="card-body">
+              <h4 class="card-title">Paris</h4>
+              <p class="card-text">It is 81 degrees outside.</p>
+              <a id="get_forecast" href="#" class="btn btn-primary">Get Current Temperature</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8">
+            <img class="img-fluid"  src="/Users/scadronm/code/hw4/mcdonaldsAD.jpg">
+        </div>
+        <div class="col-sm-8">
+            <img class="img-fluid"  src="/Users/scadronm/code/hw4/cokeAD.jpg">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="weather.js"> </script>
+  </body>
+</html>

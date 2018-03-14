@@ -1,0 +1,17 @@
+body { font-family: "Helvetica";
+       width: 960px;
+       margin: 100px auto;
+       text-align: center;
+     }
+
+title { color: red;
+   }
+
+h4 {color: gray;
+   }
+
+p { }
+
+div {border-bottom: 1px solid gray;
+
+    }
